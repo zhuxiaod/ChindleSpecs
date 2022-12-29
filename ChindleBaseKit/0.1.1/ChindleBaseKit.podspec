@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.version          = '0.1.1'
   s.summary          = 'A short description of ChindleBaseKit.'
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '11.0'
   s.swift_versions = '5.3'
 
 
