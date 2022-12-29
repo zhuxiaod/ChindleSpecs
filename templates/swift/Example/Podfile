@@ -1,7 +1,0 @@
-use_frameworks!
-
-platform :ios, '10.0'
-
-target 'PROJECT_Example' do
-  pod 'ChindleBaseKit', :path => '/Users/zhudan/Desktop/ChindleBaseKit/ChindleBaseKit'
-end
