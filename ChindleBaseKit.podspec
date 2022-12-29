@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
 
   # s.ios.deployment_target = '10.0'
 
-  s.source_files = 'ChindleBaseKit/Sources/**/*.h'
+  s.source_files = 'ChindleBaseKit/Sources/**/*'
   
   # s.resource_bundles = {
   #   '${POD_NAME}' => ['${POD_NAME}/Assets/*.png']
