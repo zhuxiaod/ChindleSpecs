@@ -2,12 +2,6 @@ use_frameworks!
 
 platform :ios, '10.0'
 
-target '${POD_NAME}_Example' do
-  pod '${POD_NAME}', :path => '../'
-
-  target '${POD_NAME}_Tests' do
-    inherit! :search_paths
-
-    ${INCLUDED_PODS}
-  end
+target 'PROJECT_Example' do
+  pod 'ChindleBaseKit', :path => '/Users/zhudan/Desktop/ChindleBaseKit/ChindleBaseKit'
 end
