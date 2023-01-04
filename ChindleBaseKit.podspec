@@ -40,7 +40,24 @@ TODO: Add long description of the pod here.
   #   '${POD_NAME}' => ['${POD_NAME}/Assets/*.png']
   # }
 
+  # s.prefix_header_file = 'ChindleBaseKit/Classes/ChindleBaseKit.h'
+  # s.prefix_header_file = false
+
+  # s.public_header_files = 'ChindleBaseKit/Classes/ChindleBaseKit.h'
+  s.prefix_header_contents = '#import <JXPagingView/JXPagerView.h>','#import <JXCategoryView/JXCategoryView.h>','#import "JXCategoryTitleView.h"','#import "ChindleBaseKit.h"'
+
+  # s.prefix_header_contents = '#import <JXPagingView/JXPagerView.h>'
+
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'MJRefresh'
+  s.dependency 'LYEmptyView'
+  s.dependency 'YYKit'
+  s.dependency 'JXPagingView'
+  s.dependency 'JXCategoryView'
+  s.dependency 'JXPagingView/Pager'
+  s.dependency 'SVProgressHUD'
+
+  s.requires_arc = true
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 end
