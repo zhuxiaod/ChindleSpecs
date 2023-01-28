@@ -9,14 +9,7 @@
 #ifdef __OBJC__
 
 #import "UIScrollView+EndFefreshing.h"
-#import "TESCategoryTitleView.h"
-#import <JXPagingView/JXPagerView.h>
-#import <JXCategoryView/JXCategoryView.h>
-#import <JXCategoryView/JXCategoryIndicatorLineView.h>
-#import "JXCategoryTitleView.h"
 
-#import "TESCategoryTitleView.h"
-#import "TESCategoryIndicatorLineView.h"
 #import "UIView+HGCorner.h"
 #import "MJPermenantThread.h"
 #import "TESAdapter.h"
