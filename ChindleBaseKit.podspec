@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ChindleBaseKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of ChindleBaseKit.'
 
   s.ios.deployment_target = '11.0'
@@ -44,7 +44,7 @@ TODO: Add long description of the pod here.
   # s.prefix_header_file = false
 
   # s.public_header_files = 'ChindleBaseKit/Classes/ChindleBaseKit.h'
-  s.prefix_header_contents = '#import <JXPagingView/JXPagerView.h>','#import <JXCategoryView/JXCategoryView.h>','#import "JXCategoryTitleView.h"','#import "ChindleBaseKit.h"'
+#  s.prefix_header_contents = '#import "ChindleBaseKit.h"'
 
   # s.prefix_header_contents = '#import <JXPagingView/JXPagerView.h>'
 
@@ -53,9 +53,6 @@ TODO: Add long description of the pod here.
   s.dependency 'MJRefresh'
   s.dependency 'LYEmptyView'
   s.dependency 'YYKit'
-  s.dependency 'JXPagingView'
-  s.dependency 'JXCategoryView'
-  s.dependency 'JXPagingView/Pager'
   s.dependency 'SVProgressHUD'
 
   s.requires_arc = true
